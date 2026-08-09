@@ -9,7 +9,7 @@
 
 6. Google OAuth2 Authentication Flow
 
-![Complete Flow](OAuth2_complete_Flow)
+![Complete Flow](OAuth2_complete_Flow.png)
 
 The following diagram illustrates the end-to-end Google OAuth2 authentication flow implemented using Spring Security, from the initial client request to user authentication and database persistence.
 
