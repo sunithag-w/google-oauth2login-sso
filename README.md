@@ -13,28 +13,28 @@
 
 The following diagram illustrates the end-to-end Google OAuth2 authentication flow implemented using Spring Security, from the initial client request to user authentication and database persistence.
 
-7. * Screenshots of the complete flow *:
+7. *Screenshots of the complete flow *:
 
-8. Landing Page
+1. Landing Page
 
   Provides the Continue with Google button.
 
-9. ![Landing Page](Landingpage.png)
+ ![Landing Page](Landingpage.png)
 
-10. Google Login Consent Page
+2. Google Login Consent Page
 
-11. ![Consent Page](loginconsent.png)
+ ![Consent Page](loginconsent.png)
 
-12. Registration form (new user)
+3. Registration form (new user)
 
  Displays the Google user's name, email and profile picture and collects:
     1.Phone Number
     2.Department
     3.Designation
 
- 13. ![Registration Form](Registration_Page.png)
+  ![Registration Form](Registration_Page.png)
 
-14. Profile page
+4. Profile page
 
 Displays the registered user Details:
 1.Profile Picture
@@ -45,15 +45,15 @@ Displays the registered user Details:
 6.Designation
 7.Task List
 
-15. ![Profile](Profilepage.png)
+ ![Profile](Profilepage.png)
 
-16. Logout back to Landing Page
+5. Logout back to Landing Page
 
-17. ![Landing](Landingpage.png)
+ ![Landing](Landingpage.png)
 
-18. ===Short README Explaining===
+8. ===Short README Explaining===
 
-19.  Application Flow
+9.  Application Flow
 
 1. User opens the Application.
 2. User clicks CONTINUE WITH GOOGLE.
@@ -70,16 +70,16 @@ Displays the registered user Details:
 10. After successful registration, the user is redirected to the Profile page.
 11. The user can logout and return to the landing page.
 
-20.* Detecting Whether the user is new or existing *
+10.*Detecting Whether the user is new or existing *
 
-21. Existing User
+11. Existing User
 If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
 
-22. New User
+12. New User
 If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
 The user then provides the additional required information and the application saves the user in the database.
 
-23.* Database Table Design *
+13.*Database Table Design *
 
 The application stores user information in the USER_DATA table.
 
@@ -94,7 +94,7 @@ The application stores user information in the USER_DATA table.
 
   The email is used to check whether the user is already registered or not. 
 
-  24.* Security *
+  14.*Security *
 
    Google OAuth2 is used for authentication.
    The Google Client ID and Client Secret are stored using environment variables and are not hardcoded in the source code.
