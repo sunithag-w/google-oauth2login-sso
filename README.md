@@ -81,16 +81,15 @@ Displays the registered user Details:
 25. The user can logout and return to the landing page.
 
 SO,
+
 26. Existing User
+: If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
 
-27.If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
-
-28. New User
-
-If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
+27. New User
+: If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
 The user then provides the additional required information and the application saves the user in the database.
 
-29.*Database Table Design *
+28.*Database Table Design *
 
 The application stores user information in the USER_DATA table.
 
@@ -105,7 +104,7 @@ The application stores user information in the USER_DATA table.
 
   The email is used to check whether the user is already registered or not. 
 
-  30.*Security *
+  29.*Security *
 
    Google OAuth2 is used for authentication.
    The Google Client ID and Client Secret are stored using environment variables and are not hardcoded in the source code.
