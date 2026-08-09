@@ -1,13 +1,17 @@
 1. Deliverables
 2. Working application (GitHub repository link)
 
-  3.https://github.com/sunithag-w/google-oauth2login-sso 
+3.https://github.com/sunithag-w/google-oauth2login-sso 
 
 4. OAUTH2 FLOW
 
 5. ![Work Flow](OAuth2_Flow.png)
 
-6. Complete Flow Of OAuth2Login
+6. Google OAuth2 Authentication Flow
+
+![Complete Flow](OAuth2_complete_Flow)
+
+The following diagram illustrates the end-to-end Google OAuth2 authentication flow implemented using Spring Security, from the initial client request to user authentication and database persistence.
 
 7. Screenshots of the complete flow:
 
