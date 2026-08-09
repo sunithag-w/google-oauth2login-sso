@@ -6,7 +6,7 @@
 
 4. OAUTH2 FLOW
 
-5. ![Work Flow](OAuth2 Flow.png)
+5. ![Work Flow](OAuth2_Flow.png)
 
 6. Complete Flow Of OAuth2Login
 
