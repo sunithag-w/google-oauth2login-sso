@@ -13,24 +13,15 @@
 <div class="container min-vh-100 d-flex justify-content-center align-items-center">
 
     <div class="card shadow-lg border-0 rounded-4 p-4" style="max-width:430px; width:100%;">
-
-       
         <div class="text-center mb-3">
-            <img th:src="@{/images/fragma.png}"
-                 alt="Fragma Data"
-                 class="img-fluid"
-                 style="max-width:190px;">
+            <img th:src="@{/images/fragma.png}"alt="Fragma Data"  class="img-fluid"  style="max-width:190px;">     
         </div>
 
-      
-
-      
        <p class="text-center mb-4">
-    <span class="text-dark fw-semibold">Sign in</span>
-    <span class="text-secondary">using your Google Account</span>
-</p>
+        <span class="text-dark fw-semibold">Sign in</span>
+        <span class="text-secondary">using your Google Account</span>
+       </p>
 
-       
         <a th:href="@{/oauth2/authorization/google}"
            class="btn btn-light border rounded-3 py-3 d-flex align-items-center justify-content-center shadow-sm">
 
@@ -45,8 +36,6 @@
         </a>
 
         <hr class="my-4">
-
-      
         <p class="text-center text-secondary small mb-0">
             Secure authentication powered by <span class="text-primary fw-semibold">Google OAuth 2.0</span>
         </p>
