@@ -1,7 +1,7 @@
 1. Deliverables
 2. Working application (GitHub repository link)
 
-3.https://github.com/sunithag-w/google-oauth2login-sso 
+  3.https://github.com/sunithag-w/google-oauth2login-sso 
 
 4. OAUTH2 FLOW
 
