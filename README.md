@@ -4,7 +4,7 @@
 3. Screenshots of the complete flow:
 4. Landing Page
 
-5. ![Landing Page] (Landingpage.png)
+5. ![Landing Page](Landingpage.png)
 
 
 
