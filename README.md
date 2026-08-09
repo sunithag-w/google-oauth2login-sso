@@ -82,12 +82,12 @@ Displays the registered user Details:
 
 SO,
 
-26. Existing User
-: If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
+26. Existing User: If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
 
-27. New User
-: If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
+
+27. New User: If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
 The user then provides the additional required information and the application saves the user in the database.
+
 
 28.*Database Table Design *
 
