@@ -8,7 +8,19 @@
 
 6. Google Login Consent Page
 
-7. ![Consent Page]
+7. ![Consent Page](loginconsent.png)
+
+8. Registration form (new user)
+
+9. ![Registration Form](Registrationpage.png)
+
+10. Profile page
+
+11. ![Profile](Profilepage.png)
+
+12. Logout back to Landing Page
+
+13. ![Landing](Landingpage.png)
 
 
 
