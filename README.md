@@ -6,5 +6,9 @@
 
 5. ![Landing Page](Landingpage.png)
 
+6. Google Login Consent Page
+
+7. ![Consent Page]
+
 
 
