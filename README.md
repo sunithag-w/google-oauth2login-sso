@@ -15,17 +15,17 @@ The following diagram illustrates the end-to-end Google OAuth2 authentication fl
 
 7. *Screenshots of the complete flow *:
 
-1. Landing Page
+8. Landing Page
 
   Provides the Continue with Google button.
 
  ![Landing Page](Landingpage.png)
 
-2. Google Login Consent Page
+9. Google Login Consent Page
 
  ![Consent Page](loginconsent.png)
 
-3. Registration form (new user)
+10. Registration form (new user)
 
  Displays the Google user's name, email and profile picture and collects:
     1.Phone Number
@@ -34,7 +34,7 @@ The following diagram illustrates the end-to-end Google OAuth2 authentication fl
 
   ![Registration Form](Registration_Page.png)
 
-4. Profile page
+11. Profile page
 
 Displays the registered user Details:
 1.Profile Picture
@@ -47,39 +47,39 @@ Displays the registered user Details:
 
  ![Profile](Profilepage.png)
 
-5. Logout back to Landing Page
+12. Logout back to Landing Page
 
  ![Landing](Landingpage.png)
 
-8. ===Short README Explaining===
+13. ===Short README Explaining===
 
-9.  Application Flow
+14.  Application Flow
 
-1. User opens the Application.
-2. User clicks CONTINUE WITH GOOGLE.
-3. Google authenticates the user.
-4. After successful authentication, the application gets the user's name, email and profile picture.
-5. The application checks the user's email in the database.
-6. If the email already exists, the user is redirected to the Profile page.
-7. If the email does not exist, the user is redirected to the Registration page.
-8. The new user enters:
+15. User opens the Application.
+16. User clicks CONTINUE WITH GOOGLE.
+17. Google authenticates the user.
+18. After successful authentication, the application gets the user's name, email and profile picture.
+19. The application checks the user's email in the database.
+20. If the email already exists, the user is redirected to the Profile page.
+21. If the email does not exist, the user is redirected to the Registration page.
+22. The new user enters:
    - Phone Number
    - Department
    - Designation
-9. The user information is saved in the database.
-10. After successful registration, the user is redirected to the Profile page.
-11. The user can logout and return to the landing page.
+23. The user information is saved in the database.
+24. After successful registration, the user is redirected to the Profile page.
+25. The user can logout and return to the landing page.
 
-10.*Detecting Whether the user is new or existing *
+26.*Detecting Whether the user is new or existing *
 
-11. Existing User
+27. Existing User
 If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
 
-12. New User
+28. New User
 If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
 The user then provides the additional required information and the application saves the user in the database.
 
-13.*Database Table Design *
+29.*Database Table Design *
 
 The application stores user information in the USER_DATA table.
 
@@ -94,7 +94,7 @@ The application stores user information in the USER_DATA table.
 
   The email is used to check whether the user is already registered or not. 
 
-  14.*Security *
+  30.*Security *
 
    Google OAuth2 is used for authentication.
    The Google Client ID and Client Secret are stored using environment variables and are not hardcoded in the source code.
