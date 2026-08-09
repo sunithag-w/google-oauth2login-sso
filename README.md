@@ -1,5 +1,4 @@
 1. Deliverables
-
 2. Working application (GitHub repository link)
 
 3.https://github.com/sunithag-w/google-oauth2login-sso 
@@ -29,7 +28,7 @@ Provides the Continue with Google button.
     2.Department
     3.Designation
 
-13. ![Registration Form](Registrationpage.png)
+ 13. ![Registration Form](Registrationpage.png)
 
 14. Profile page
 
@@ -76,7 +75,7 @@ If the email is already present in the database, the application considers the u
 If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
 The user then provides the additional required information and the application saves the user in the database.
 
-15. Database Table Design
+20. Database Table Design
 
 The application stores user information in the USER_DATA table.
 
@@ -91,7 +90,7 @@ The application stores user information in the USER_DATA table.
 
   The email is used to check whether the user is already registered or not. 
 
-  16.Security
+  21.Security
 
    Google OAuth2 is used for authentication.
    The Google Client ID and Client Secret are stored using environment variables and are not hardcoded in the source code.
