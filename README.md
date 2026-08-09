@@ -13,7 +13,17 @@
 
 The following diagram illustrates the end-to-end Google OAuth2 authentication flow implemented using Spring Security, from the initial client request to user authentication and database persistence.
 
-7. *Screenshots of the complete flow *:
+When the user clicks Continue with Google, Spring Security starts the OAuth2 authorization flow.
+The OAuth2 login filter redirects the browser to Google's authorization endpoint with the client ID, redirect URI, scopes, response type, and state. 
+Google authenticates the user and redirects back to our application with an authorization code. 
+The OAuth2 login filter processes this callback and passes the authentication request to the AuthenticationManager.
+The AuthenticationManager delegates it to the OAuth2LoginAuthenticationProvider because this is an OAuth2 authentication request.
+The provider exchanges the authorization code with Google's token endpoint and receives an access token.
+The OAuth2UserService then uses that access token to call Google's UserInfo endpoint and obtain the user's details such as email, name, and picture.
+Spring converts this into an OAuth2User, and after successful authentication the authentication is stored in the SecurityContext.
+Our application can then check the user's email in our database and create or update the application user if necessary.
+
+7. **Screenshots of the complete flow **:
 
 8. Landing Page
 
@@ -53,7 +63,7 @@ Displays the registered user Details:
 
 13. ===Short README Explaining===
 
-14.  Application Flow
+14. *Detecting Whether the user is new or existing *
 
 15. User opens the Application.
 16. User clicks CONTINUE WITH GOOGLE.
@@ -70,10 +80,8 @@ Displays the registered user Details:
 24. After successful registration, the user is redirected to the Profile page.
 25. The user can logout and return to the landing page.
 
-26.*Detecting Whether the user is new or existing *
-
-27. Existing User
-If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
+26. Existing User
+27.If the email is already present in the database, the application considers the user an existing user and redirects the user to the Profile page.
 
 28. New User
 If the email is not present in the database, the application considers the user a new user and redirects the user to the Registration page.
