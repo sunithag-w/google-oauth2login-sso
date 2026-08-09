@@ -13,15 +13,15 @@
 
 The following diagram illustrates the end-to-end Google OAuth2 authentication flow implemented using Spring Security, from the initial client request to user authentication and database persistence.
 
-When the user clicks Continue with Google, Spring Security starts the OAuth2 authorization flow.
-The OAuth2 login filter redirects the browser to Google's authorization endpoint with the client ID, redirect URI, scopes, response type, and state. 
-Google authenticates the user and redirects back to our application with an authorization code. 
-The OAuth2 login filter processes this callback and passes the authentication request to the AuthenticationManager.
-The AuthenticationManager delegates it to the OAuth2LoginAuthenticationProvider because this is an OAuth2 authentication request.
-The provider exchanges the authorization code with Google's token endpoint and receives an access token.
-The OAuth2UserService then uses that access token to call Google's UserInfo endpoint and obtain the user's details such as email, name, and picture.
-Spring converts this into an OAuth2User, and after successful authentication the authentication is stored in the SecurityContext.
-Our application can then check the user's email in our database and create or update the application user if necessary.
+* When the user clicks Continue with Google, Spring Security starts the OAuth2 authorization flow.
+* The OAuth2 login filter redirects the browser to Google's authorization endpoint with the client ID, redirect URI, scopes, response type, and state. 
+* Google authenticates the user and redirects back to our application with an authorization code. 
+* The OAuth2 login filter processes this callback and passes the authentication request to the AuthenticationManager.
+* The AuthenticationManager delegates it to the OAuth2LoginAuthenticationProvider because this is an OAuth2 authentication request.
+* The provider exchanges the authorization code with Google's token endpoint and receives an access token.
+* The OAuth2UserService then uses that access token to call Google's UserInfo endpoint and obtain the user's details such as email, name, and picture.
+* Spring converts this into an OAuth2User, and after successful authentication the authentication is stored in the SecurityContext.
+* Our application can then check the user's email in our database and create or update the application user if necessary.
 
 7. **Screenshots of the complete flow **:
 
