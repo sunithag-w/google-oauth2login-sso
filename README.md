@@ -28,7 +28,7 @@ Provides the Continue with Google button.
     2.Department
     3.Designation
 
- 13. ![Registration Form](Registrationpage.png)
+ 13. ![Registration Form](Registration_Page.png)
 
 14. Profile page
 
