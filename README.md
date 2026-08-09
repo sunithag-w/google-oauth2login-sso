@@ -1,32 +1,38 @@
-1. Working application (GitHub repository link)
+1. Deliverables
 
-2. OAUTH2 FLOW
+2. Working application (GitHub repository link)
 
-3.  
-4. https://github.com/sunithag-w/google-oauth2login-sso
+3.https://github.com/sunithag-w/google-oauth2login-sso 
 
-5. Screenshots of the complete flow:
-6. Landing Page
+4. OAUTH2 FLOW
 
-7. ![Landing Page](Landingpage.png)
+5. ![Work Flow](OAuth2 Flow.png)
 
-8. Google Login Consent Page
+6. Complete Flow Of OAuth2Login
 
-9. ![Consent Page](loginconsent.png)
+7. Screenshots of the complete flow:
 
-10. Registration form (new user)
+8. Landing Page
 
-11. ![Registration Form](Registrationpage.png)
+9. ![Landing Page](Landingpage.png)
 
-12. Profile page
+10. Google Login Consent Page
 
-13. ![Profile](Profilepage.png)
+11. ![Consent Page](loginconsent.png)
 
-14. Logout back to Landing Page
+12. Registration form (new user)
 
-15. ![Landing](Landingpage.png)
+13. ![Registration Form](Registrationpage.png)
 
-16. 
+14. Profile page
+
+15. ![Profile](Profilepage.png)
+
+16. Logout back to Landing Page
+
+17. ![Landing](Landingpage.png)
+
+
 
 
 
