@@ -102,6 +102,11 @@ The application stores user information in the USER_DATA table.
                   DEPARTMENT	                                                        User department
                   DESIGNATION	                                                        User designation
 
+   Database Structure
+
+   ![DataBase](databasepage.png)
+   
+
   The email is used to check whether the user is already registered or not. 
 
   29.*Security *
