@@ -44,7 +44,10 @@ The following diagram illustrates the end-to-end Google OAuth2 authentication fl
 
   ![Registration Form](Registration_Page.png)
 
- 
+ Github Registration
+
+ ![Github](githubregistration.png)
+  
 
 11. Profile page
 
@@ -58,6 +61,12 @@ Displays the registered user Details:
 7.Task List
 
  ![Profile](Profilepage.png)
+
+
+ Github Profile
+
+ ![profile](githubprofile.png)
+ 
 
 12. Logout back to Landing Page
 
