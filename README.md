@@ -29,7 +29,7 @@ The following diagram illustrates the end-to-end Google OAuth2 authentication fl
 
   Provides the Continue with Google button.
 
- ![Landing Page](Landingpage.png)
+ ![Landing Page](updatedLogin.png)
 
 9. Google Login Consent Page
 
@@ -120,11 +120,6 @@ The application stores user information in the USER_DATA table.
           spring.security.oauth2.client.registration.google.client-secret=${GOOGLE_CLIENT_SECRET}
 
 
-   Updated Landing Page with Google and Github Sign in option
-
-   ![updatedlogin](updatedLogin.png)
-
-   
 
   30.![Scope_Google](google_scope.png) 
    
