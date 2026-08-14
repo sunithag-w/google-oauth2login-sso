@@ -44,6 +44,8 @@ The following diagram illustrates the end-to-end Google OAuth2 authentication fl
 
   ![Registration Form](Registration_Page.png)
 
+ 
+
 11. Profile page
 
 Displays the registered user Details:
