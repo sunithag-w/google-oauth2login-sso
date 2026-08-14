@@ -122,6 +122,8 @@ The application stores user information in the USER_DATA table.
 
    Updated Landing Page with Google and Github Sign in option
 
+   ![updatedlogin](updatedLogin.png)
+
    
 
   30.![Scope_Google](google_scope.png) 
