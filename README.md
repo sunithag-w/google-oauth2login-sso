@@ -119,6 +119,12 @@ The application stores user information in the USER_DATA table.
           spring.security.oauth2.client.registration.google.client-id=${GOOGLE_CLIENT_ID}
           spring.security.oauth2.client.registration.google.client-secret=${GOOGLE_CLIENT_SECRET}
 
+  30.![Scope_Google](google_scope) 
+   
+   31.![Scope_Github](github_scope) 
+
+    The user is shown the requested permissions and can review and grant access to the application by clicking *Continue*.
+
           
 
 
