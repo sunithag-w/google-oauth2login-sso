@@ -17,8 +17,6 @@
     <div class="card shadow-lg border-0 rounded-4 p-4"
          style="max-width:450px; width:100%;">
 
-        <!-- GOOGLE -->
-
         <div th:if="${provider == 'google'}">
 
             <h3 class="text-center mb-4">
@@ -75,7 +73,7 @@
                name="scope"
                value="https://www.googleapis.com/auth/drive.readonly">
         <label class="form-check-label">
-            📁 Google Drive — Read your files
+            Google Drive — Read your files
         </label>
     </div>
 
@@ -85,7 +83,7 @@
                name="scope"
                value="https://www.googleapis.com/auth/contacts.readonly">
         <label class="form-check-label">
-            👥 Contacts — Read your contacts
+             Contacts — Read your contacts
         </label>
     </div>
 
@@ -149,7 +147,7 @@
                    value="public_repo">
 
             <label class="form-check-label">
-                📁 Public Repositories
+                Public Repositories
             </label>
 
         </div>
