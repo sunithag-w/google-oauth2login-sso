@@ -119,6 +119,11 @@ The application stores user information in the USER_DATA table.
           spring.security.oauth2.client.registration.google.client-id=${GOOGLE_CLIENT_ID}
           spring.security.oauth2.client.registration.google.client-secret=${GOOGLE_CLIENT_SECRET}
 
+
+   Updated Landing Page with Google and Github Sign in option
+
+   
+
   30.![Scope_Google](google_scope.png) 
    
    31.![Scope_Github](github_scope.png) 
